@@ -1,0 +1,97 @@
+:root{
+    --purple: #814096;
+    --pink: #f83292;
+    --gradient: linear-gradient(90deg, var(--purple), var(--pink))
+  }
+  
+
+form {
+    margin-bottom: 50px;
+}
+
+.newsletter {
+   text-align: center;
+   padding: 5rem 1rem;
+   background: url('../public/images/subscribe-bg.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+
+.newsletter h3 {
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.newsletter p {
+    color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 2rem auto;
+    width: 70rem;
+}
+.newsletter form {
+     display: flex;
+     max-width: 70rem;
+     border: .2rem solid white;
+     border-radius: 5rem;
+     padding: .5rem;
+     margin: 2rem 0;
+     height: 5.5rem;
+}
+
+.newsletter form input[type='email']{
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background: none;
+    width: 70rem;
+    color: white;
+    text-transform: none;
+    border: none;
+}
+.newsletter form input[type='submit']{
+    background: white;
+    width: 20rem;
+    font-size: 1.7rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+.newsletter form input[type='submit']:hover {
+    background: var(--gradient);
+    color: white;
+}
+
+.newsletter form input[type='email']:focus {
+    outline: none;
+}
+
+.newsletter form input[type='email']::placeholder {
+    color: rgb(168, 168, 168);
+}
+
+@media (max-width: 991px) {
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .newsletter form{
+        max-width: 45rem;
+    }
+    .newsletter h3 {
+        color: rgb(255, 255, 255);
+    }
+    .newsletter p {
+        text-align: center;
+        padding: 2rem 12rem;
+        margin: 0;
+   }
+}
