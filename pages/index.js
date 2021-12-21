@@ -5,7 +5,9 @@ import  Link  from 'next/link'
 import Feauters from './Feauters'
 import About from './About'
 import Newsletter from './Newsletter'
-
+import HeaderReview from './components/HeaderReview'
+import Pricing from './Pricing'
+import Contact from './Contact'
 
 export default function Home() {
   return (
@@ -25,6 +27,9 @@ export default function Home() {
       <Feauters />
       <About />
       <Newsletter />
+      <HeaderReview />
+      <Pricing />
+      <Contact />
     </>
   )
 }

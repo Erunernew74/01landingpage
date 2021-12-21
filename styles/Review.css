@@ -1,0 +1,61 @@
+.heading {
+    color: rgb(192, 25, 192);
+    font-size: 3.5rem;
+}
+
+.boxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: white;
+    margin: 1rem;
+    padding: 2.5rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid rgba(0,0,0,0.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    flex: 1 1 30rem;
+    transition: 0.4s ease-in-out;
+    border-radius: 8px;
+}
+
+.user:hover {
+    transform: translateY(-5px);
+}
+
+.user img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.user .commentUser {
+    color: var(--pink);
+    font-size: 2rem;
+}
+
+.comment {
+    color: #666;
+    margin-top: 2rem;
+}
+
+@media (max-width: 991px) {
+    .boxContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+

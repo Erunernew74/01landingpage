@@ -16,8 +16,9 @@ const Nav = ({ children }) => {
                     <Link href='/'><a>Home</a></Link>
                     <Link href='/Feauters'><a>Feauters</a></Link>
                     <Link href='/About'><a>About</a></Link>
-                    <Link href='/review'><a>review</a></Link>
-                    <Link href='/pricing'><a>pricing</a></Link>
+                    <Link href='/Review'><a>review</a></Link>
+                    <Link href='/Pricing'><a>pricing</a></Link>
+                    <Link href='/Contact'><a>Contact</a></Link>
                 </nav>
             </header>
             <div>{children}</div>

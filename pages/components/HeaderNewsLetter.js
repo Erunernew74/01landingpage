@@ -14,9 +14,9 @@ const HeaderNewsLetter = () => {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </p>
-        <form>
-          <input type="email" placeholder="enter your email" />
-          <input type="submit" value="submit" />
+        <form className="formNewsletter">
+          <input type="email" placeholder="enter your email" className="inputNewsletter"/>
+          <input type="submit" value="submit" className="inputNewsletter"/>
         </form>
       </div>
     </>

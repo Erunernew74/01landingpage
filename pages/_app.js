@@ -6,6 +6,10 @@ import '../styles/About.css'
 import '../styles/Feauters.css'
 import '../styles/NotFound.css'
 import '../styles/Newsletter.css'
+import '../styles/Review.css'
+import '../styles/Pricing.css'
+import '../styles/Contact.css'
+import '../styles/Footer.css'
 
 
 
